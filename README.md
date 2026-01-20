@@ -25,7 +25,7 @@ Some fonts do not support Turkish-specific characters (e.g., Ç, Ğ, İ, Ş, Ö,
 
 - **Generator:** U-Net based architecture with skip connections.
 - **Discriminator:** PatchGAN that classifies local image patches as real or fake.
-- **Loss Function:** Total Generator Loss = GAN Loss + λ * L1 Loss where λ = 100.
+- **Loss Function:** Total Generator Loss = GAN Loss + λ * L1 Loss (where λ = 100).
 
 ---
 
